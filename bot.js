@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('pong');
-  }
+  }n
 });
 client.on('message', message => {
   // Ignore messages that aren't from a guild
@@ -249,4 +249,4 @@ client.on('message', message => {
 
 
 
-client.login('NTkzMTE3Mjc3OTM1NjMyMzg0.XRJNjA.EerfINyqseZxoUs85cQrTpMUF4E')
+client.login(process.env.NTkzMTE3Mjc3OTM1NjMyMzg0.XRJNjA.EerfINyqseZxoUs85cQrTpMUF4E)
